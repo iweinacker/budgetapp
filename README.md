@@ -12,7 +12,7 @@ The Latin in Berlin website is designed to be a responsive website allowing the 
 ![image](https://github.com/iweinacker/budgetapp/assets/130374663/d7c2f7db-12e5-47db-9156-3091d12f3fb0)
 
 
-- Feature at the top of the page, the navigation shows the website name in the left corner: BUDGET CALCULATOR that links to the top of the page
+- Feature at the top of the page, the navigation shows the website name in the left corner: BUDGET CALCULATOR that links to the top of the page.
 - Other navigation links are to the right: Home, Instruction and Calculator which links to different sections in the same page.
 - Also, we have a footer which contains the basic social media icon that links into the social media that corresponds.
 
@@ -54,7 +54,7 @@ The Latin in Berlin website is designed to be a responsive website allowing the 
 - I confirm that the navigator responds correctly and takes you where it corresponds.
 - I confirm that every internal link works and takes you where it corresponds.
 - I confirm that the form react at it should force you to give the full information except for the comment section.
-- I confirm that every action of the budget calculator respond as it should
+- I confirm that every action of the budget calculator respond as it should.
 
 ### Validator Testing
 
@@ -69,8 +69,8 @@ The Latin in Berlin website is designed to be a responsive website allowing the 
 ## Deployment
 
 - The site was deployed to the GitHub pages. The steps to deploy are as follows:
-1. In the GitHub repository, navigate to the setting tab
-2. From the source section drop-down menu, select the Master Branch
+1. In the GitHub repository, navigate to the setting tab.
+2. From the source section drop-down menu, select the Master Branch.
 3. Once the master branch has been selected, the page provides the link to the completed website.
 
 The live link can be found [here](https://iweinacker.github.io/budgetapp/)
