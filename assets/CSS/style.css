@@ -198,7 +198,7 @@ hr {
 
 .total-amount-container,
 .user-amount-container {
-    background-color: #ffffff;
+    background-color: #175b70;
     padding: 1.25em 0.9em;
     border-radius: 0.3em;
     box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
@@ -228,10 +228,10 @@ hr {
 .submit {
     font-size: 1em;
     margin-top: 0.8em;
-    background-color: #175b70;
+    background-color: #ffffff;
     border: none;
     outline: none;
-    color: #ffffff;
+    color: #175b70;
     padding: 0.6em 1.2em;
     border-radius: 0, 3em;
     cursor: pointer;
@@ -317,12 +317,65 @@ footer {
 
 /*Media*/
 
-@media screen and (max-width: 600px) {
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+    .Instructions {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .calculator {
+        width: 65%;
+        height: 600px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
     .wrapper {
         font-size: 14px;
     }
 
     .sub-container {
         grid-template-columns: 1fr;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #Instructions {
+        width: 90%;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+    #title-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Instructions h1 {
+        width: 50%;
+        text-align: center;
+    }
+
+    .steps {
+        text-align: center;
+        padding: 0 20px;
     }
 }

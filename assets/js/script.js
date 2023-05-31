@@ -34,7 +34,7 @@ totalAmountButton.addEventListener("click", () => {
 
 const disableButtons = (bool) => {
     let editButtons = document.getElementsByClassName("edit");
-    Array.from(editButtons).forEach(element => {
+    Array.from(editButtons).forEach((element) => {
         element.disabled = bool;
     });
 };
@@ -65,7 +65,7 @@ const listCreator = (expenseName, expenseValue) => {
     sublistContent.innerHTML = `<p class="product">${expenseName}</p><p class="amount">${expenseValue}</p>`;
     //Remeber to put penn from fontawesome
     let editButton = document.createElement("button");
-    editButton.classList.add("fa-sharp", "fa-regular fa-square-pen", "edit");
+    editButton.classList.add("fa-regular", "fa-pen-to-square", "edit");
     editButton.style.fontSize = "24px";
     editButton.addEventListener("click", () => {
         modifyElement(editButton, true);
