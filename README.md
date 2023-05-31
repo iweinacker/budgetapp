@@ -72,7 +72,7 @@ The Latin in Berlin website is designed to be a responsive website allowing the 
 2. From the source section drop-down menu, select the Master Branch
 3. Once the master branch has been selected, the page provides the link to the completed website.
 
-The live link can be found here (https://iweinacker.github.io/budgetapp/)
+The live link can be found [here] (https://iweinacker.github.io/budgetapp/)
 
 ## Credits
 
