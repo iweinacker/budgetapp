@@ -58,8 +58,8 @@ The Latin in Berlin website is designed to be a responsive website allowing the 
 
 ### Validator Testing
 
-- Html:  Duplicate ID title-2. which was on purpose, Unclosed element div on line 72 and End tag section on line 128 was corrected. [W3C validator] https://validator.w3.org/#validate_by_input
-- CSS: 236	.submit and 243	.list couldn't find the error [(jigsaw) validator] (https://jigsaw.w3.org/css-validator/#validate_by_input)
+- Html:  Duplicate ID title-2. which was on purpose, Unclosed element div on line 72 and End tag section on line 128 was corrected. [W3C validator](https://validator.w3.org/#validate_by_input)
+- CSS: 236	.submit and 243	.list couldn't find the error [(jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 - Js: No error [JSHint JavaScript Validator](https://jshint.com/)
 - Accessibility: I confirmed that the colors and fonts chosen are easy to read and accessible by running through lighthouse in devtools.
 
