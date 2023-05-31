@@ -63,7 +63,7 @@ The Latin in Berlin website is designed to be a responsive website allowing the 
 - Js: No error [JSHint JavaScript Validator](https://jshint.com/)
 - Accessibility: I confirmed that the colors and fonts chosen are easy to read and accessible by running through lighthouse in devtools.
 
-![image](https://github.com/iweinacker/latinb/assets/130374663/36d65a36-ba58-4237-9aa6-8611316f0b41)
+![image](https://github.com/iweinacker/budgetapp/assets/130374663/58d030bc-72a3-4f8f-8259-f2e2eba5d1d3)
 
 
 ## Deployment
