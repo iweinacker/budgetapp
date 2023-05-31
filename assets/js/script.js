@@ -5,7 +5,6 @@ const totalAmountButton = document.getElementById("total-amount-button");
 const productTitle = document.getElementById("product-title");
 const errorMessage = document.getElementById("budget-error");
 const productTitleError = document.getElementById("product-title-error");
-const productCostError = document.getElementById("product-cost-error");
 const amount = document.getElementById("amount");
 const expenditureValue = document.getElementById("expenditure-value");
 const balanceValue = document.getElementById("balance-amount");
@@ -63,7 +62,6 @@ const listCreator = (expenseName, expenseValue) => {
     sublistContent.classList.add("sublist-content", "flex-space");
     list.appendChild(sublistContent);
     sublistContent.innerHTML = `<p class="product">${expenseName}</p><p class="amount">${expenseValue}</p>`;
-    //Remeber to put penn from fontawesome
     let editButton = document.createElement("button");
     editButton.classList.add("fa-regular", "fa-pen-to-square", "edit");
     editButton.style.fontSize = "24px";
