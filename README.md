@@ -58,8 +58,9 @@ The Latin in Berlin website is designed to be a responsive website allowing the 
 
 ### Validator Testing
 
-- Html: no errors were returned when passing through the official [W3C validator] https://validator.w3.org/#validate_by_input
-- CSS: no errors were found passing through the official [(jigsaw) validator] (https://jigsaw.w3.org/css-validator/#validate_by_input)
+- Html:  Duplicate ID title-2. which was on purpose, Unclosed element div on line 72 and End tag section on line 128 was corrected. [W3C validator] https://validator.w3.org/#validate_by_input
+- CSS: 236	.submit and 243	.list couldn't find the error [(jigsaw) validator] (https://jigsaw.w3.org/css-validator/#validate_by_input)
+- Js: No error [JSHint JavaScript Validator](https://jshint.com/)
 - Accessibility: I confirmed that the colors and fonts chosen are easy to read and accessible by running through lighthouse in devtools.
 
 ![image](https://github.com/iweinacker/latinb/assets/130374663/36d65a36-ba58-4237-9aa6-8611316f0b41)
@@ -77,9 +78,13 @@ The live link can be found [here](https://iweinacker.github.io/budgetapp/)
 ## Credits
 
 ### content
-- The code to make the social media links was taken from the CI love running project.
-- 
+- Part of the code ideas and design was from the following links:
+- Javascript code [video 1](https://www.youtube.com/watch?v=jSBGBsJSXeU&t=1151s) [video 2](https://www.youtube.com/watch?v=8EYhsctbza0&t=210s)
+- Internal link [video 3](https://www.google.com/search?q=como+linkear+una+una+parte+de+tu+pagina+al+navegador+html&rlz=1C1ALOY_esCL1016CL1016&sxsrf=APwXEdfdfAiJ0M7ltLgDSlZJ-LfjSuiS8A:1685531640227&source=lnms&tbm=vid&sa=X&ved=2ahUKEwjomrHVtp__AhUkuaQKHY3tBT8Q_AUoAXoECAEQAw&biw=1280&bih=569&dpr=1.5#fpstate=ive&vld=cid:2c27952e,vid:S1_WenGOk1Q)
+- Header idea [video 4](https://www.youtube.com/watch?v=P09qW9k0vKE)
+- The pallet color ideas [n26](https://n26.com/en-es/monthly-budget-calculator)
 
 ### Media 
-- The image in the headers, restaurant and background form was taken from [pexels](https://www.pexels.com/).
-- The font was taken from [Fontawesome](https://fontawesome.com/)
+- The image in the headers was taken from [pexels](https://www.pexels.com/).
+- The Penn and the trash icon was taken from [Fontawesome](https://fontawesome.com/)
+
