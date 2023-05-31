@@ -15,15 +15,15 @@
 <body>
     <header>
         <a href="index.html">
-            <h1 id="logo">Love Running</h1>
+            <h1 id="logo">Budget Calculator</h1>
         </a>
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="#">Sign Up</a>
+                    <a href="#Calculator">Calculator</a>
                 </li>
                 <li>
-                    <a href="#">Gallery</a>
+                    <a href="#intructions">Instructions</a>
                 </li>
                 <li>
                     <a href="index.html" class="active">Home</a>
@@ -32,13 +32,115 @@
         </nav>
     </header>
 
-<section id="hero-outer">
-    <div id="hero-image"></div>
-    <div id="cover-text">
-        <h2>Love Running</h2>
-        <h3>Dublin Docklands & Phoenix Park</h3>
-    </div>
-</section>
+    <section id="hero-outer">
+        <div class="left-side">
+            <h1> <span class="title">Budget app</span> </h1>
+            <p> Visualize your income, and split your earnings into common expenses and savings goals to help you make
+                the most out of
+                your money.</p>
+        </div>
+        <div class="right-side"></div>
+    </section>
+
+    <section id="intructions">
+        <div class="Instructions">
+            <h2 id="title-2">How to use the monthly budget calculator?</h2>
+            <ol>
+                <li class="steps">Enter the total budget into the Budget fields that apply to you or your family, then
+                    click on the "set budget" button.</li>
+                <li class="steps">In the Expenses section, add the product name or category as you wish to classify
+                    them. Add the expenses as accurately
+                    as possible. If you don't have the exact number, try to put an estimated amount. Once you have the
+                    product name and
+                    amount, click on the "Check amount" button.</li>
+                <li class="steps">You will see how the budget is added and the expenses are automatically added up,
+                    generating a balance in the next
+                    section.</li>
+                <li class="steps">The list of expenses will also be added at the bottom of the calculator, where you can
+                    modify (pencil) or delete (trash
+                    can) any of your expenses if you wish.</li>
+            </ol>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2 id="title-2">Monthly Budget Calculator</h2>
+
+    <section id="Calculator">
+        <div class="wrapper">
+            <div class="container">
+                <div class="sub-container">
+                    <!--Budget-->
+                    <div class="total-amount-container">
+                        <h3>Budget</h3>
+                        <p class="hide error" id="budget-error">Value cannot be empty or negative</p>
+                        <input type="number" id="total-amount" placeholder="Enter Total Amount">
+                        <button class="submit" id="total-amount-button">Set Budget</button>
+                    </div>
+
+                    <!--Expenditure-->
+                    <div class="user-amount-container">
+                        <h3>Expenses</h3>
+                        <p class="hide error" id="product-title-error">
+                            Values cannot be empty
+                        </p>
+                        <input type="text" class="product-title" id="product-title"
+                            placeholder="Enter Title of Profduct" />
+                        <input type="number" id="user-amount" placeholder="Enter Cost of Product" />
+
+                        <button class="submit" id="check-amount">Check Amount</button>
+                    </div>
+                </div>
+                <!--Output-->
+                <div class="output-container flex-space">
+                    <div>
+                        <p>Total Budget</p>
+                        <span id="amount">0</span>
+                    </div>
+                    <div>
+                        <p>Expenses</p>
+                        <span id="expenditure-value">0</span>
+                    </div>
+                    <div>
+                        <p>Balance</p>
+                        <span id="balance-amount">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--List-->
+            <div class="list">
+                <h3>Expense List</h3>
+                <div class="list-container" id="list"></div>
+            </div>
+
+
+    </section>
+
+    <hr>
+
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+
 
 
     <script src="assets/js/script.js"></script>
