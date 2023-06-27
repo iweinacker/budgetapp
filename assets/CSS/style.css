@@ -322,13 +322,13 @@ footer {
 
     .Instructions {
         width: 65%;
-        height: 1200px;
+        height: auto;
         margin: 0 auto;
     }
 
     .calculator {
         width: 65%;
-        height: 600px;
+        height: auto;
         margin: 0 auto;
         font-size: 14px;
     }
@@ -352,15 +352,20 @@ footer {
 
     #menu {
         clear: left;
-        float: left;
-        margin-left: 30px;
+        float: none;
+        margin-left: 0;
         margin-bottom: 20px;
         line-height: 25px;
+        text-align: center;
     }
 
-    #Instructions {
+    #menu li {
+        margin-right: 15px;
+    }
+
+    .Instructions {
         width: 90%;
-        height: 600px;
+        height: auto;
         margin: 0 auto;
     }
 
